@@ -1,0 +1,89 @@
+{
+    "calendar": [
+        {
+            "dayInWeek": "Mon",
+            "dayInMonth": "05",
+            "workouts": []
+        },
+        {
+            "dayInWeek": "Tue",
+            "dayInMonth": "06",
+            "workouts": [
+                {
+                    "id": 1,
+                    "name": "Chest day - with arm exercises",
+                    "exercises": [
+                        {
+                            "id": 5,
+                            "name": "Bench press medium grip",
+                            "set": ["50 lb x 5", "60 lb x 5", "70 lb x 5"]
+                        },
+                        {
+                            "id": 6,
+                            "name": "Exercise B",
+                            "set": ["40 lb x 10"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dayInWeek": "Wed",
+            "dayInMonth": "07",
+            "workouts": [
+                {
+                    "id": 2,
+                    "name": "Leg day",
+                    "exercises": [
+                        {
+                            "id": 7,
+                            "name": "Exercise C",
+                            "set": ["30 lb x 5"]
+                        },
+                        {
+                            "id": 9,
+                            "name": "Exercise D",
+                            "set": ["40 lb x 5"]
+                        },
+                        {
+                            "id": 10,
+                            "name": "Exercise E",
+                            "set": ["50 lb x 5"]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Arm day",
+                    "exercises": [
+                        {
+                            "id": 8,
+                            "name": "Exercise F",
+                            "set": ["60 lb x 6"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dayInWeek": "Thu",
+            "dayInMonth": "08",
+            "workouts": []
+        },
+        {
+            "dayInWeek": "Fri",
+            "dayInMonth": "09",
+            "workouts": []
+        },
+        {
+            "dayInWeek": "Sat",
+            "dayInMonth": "10",
+            "workouts": []
+        },
+        {
+            "dayInWeek": "Sun",
+            "dayInMonth": "11",
+            "workouts": []
+        }
+    ]
+}

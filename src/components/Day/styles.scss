@@ -1,0 +1,17 @@
+.day {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+    height: calc(100vh - 100px);
+    width: calc((100% - 60px) / 7);
+    &-top {
+        // height: 100px;
+    }
+    &-bottom {
+        flex-grow: 1;
+        background-color: #f3f5f8;
+        border-radius: 8px;
+        padding: 8px;
+    }
+}

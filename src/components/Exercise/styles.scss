@@ -1,0 +1,33 @@
+.exercise {
+    border-radius: 8px;
+    border: 1px solid #888;
+    padding: 4px;
+    margin-bottom: 8px;
+
+    &-top {
+        font-weight: bold;
+        text-align: right;
+        display: inline-block;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+    }
+    &-bottom {
+        display: flex;
+        justify-content: space-between;
+        color: #95a6b7;
+
+        & span:first-child {
+            font-weight: bold;
+        }
+        & span:last-child {
+            text-align: right;
+            display: inline-block;
+            width: 75%;
+            white-space: nowrap;
+            overflow: hidden !important;
+            text-overflow: ellipsis;
+        }
+    }
+}
