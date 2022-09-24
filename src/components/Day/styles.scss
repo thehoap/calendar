@@ -5,13 +5,23 @@
     text-align: left;
     height: calc(100vh - 100px);
     width: calc((100% - 60px) / 7);
+    color: #6a7988;
+
     &-top {
-        // height: 100px;
+        text-transform: uppercase;
+        font-weight: bold;
     }
     &-bottom {
         flex-grow: 1;
         background-color: #f3f5f8;
         border-radius: 8px;
         padding: 8px;
+    }
+
+    &-in-month {
+        &.highlight {
+            color: #5a57cb;
+            font-weight: bold;
+        }
     }
 }

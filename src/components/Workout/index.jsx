@@ -2,11 +2,14 @@ import Exercise from "components/Exercise";
 import "./styles.scss";
 
 const Workout = ({ workoutName, exercises }) => {
-    const handleDragWorkout = () => {
-        console.log("drag");
+    const onDragStart = (e) => {
+        e.dataTransfer.effectAllowed = "move";
+        e.dataTransfer.setData("text/html", e.target.parentNode);
+        e.dataTransfer.setDragImage(e.target.parentNode, 20, 20);
     };
+
     return (
-        <div className="workout" onDrag={handleDragWorkout}>
+        <div className="workout" draggable onDragStart={onDragStart}>
             <section className="workout-header">{workoutName}</section>
             <section className="workout-main">
                 {exercises.map(({ id, name, set }) => (
